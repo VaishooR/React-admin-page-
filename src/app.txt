@@ -1,0 +1,21 @@
+function App() {
+  return (
+    <>
+      <div id="wrapper">
+      <Sidebar/>
+          <div id="content-wrapper" class="d-flex flex-column">
+              <div id="content">
+              <Topbar/>
+                    <div class="container-fluid">
+                    {/* <Dashboard/> */}
+                    <Table/>
+                    </div>
+              </div> 
+          <Footer/>   
+          </div>     
+      </div>
+    </>
+  );
+}
+
+export default App;
